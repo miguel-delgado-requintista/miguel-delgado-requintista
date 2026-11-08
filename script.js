@@ -1,0 +1,1 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');if(menu)menu.addEventListener('click',()=>links.classList.toggle('open'));const current=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.links a').forEach(a=>{if(a.getAttribute('href')===current)a.classList.add('active')});
