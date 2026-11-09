@@ -3,7 +3,7 @@ name: Publicar web de Miguel Delgado
 on:
   push:
     branches:
-      - principal
+      - main
   workflow_dispatch:
 
 permissions:
